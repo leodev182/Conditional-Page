@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+/*...................Border.............*/
+.container {
+  height: 800px;
+  width: 600px;
+  background: lightgray;
+  border-radius: 10px;
+}
+
+/*...................Stickers...........*/
+
+.stick {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contenedorStick {
+  height: 70%;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  height: 600px;
+  width: 350px;
+  padding: 5px 0px 5px 0px;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card img {
+  display: block;
+  width: 90%;
+}
+
+.respuestaFinal {
+  height: 50px;
+  width: 500px;
+  margin-top: 20px;
+}
+
+/*...................Password...........*/
+
+.padlock {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.changeDisplay {
+  height: 70%;
+  width: 100%;
+  padding-left: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contenedor {
+  height: 630px;
+  width: 690px;
+  background-image: url(../img/candadoCerrado.png);
+  background-repeat: no-repeat;
+}
+
+.pass {
+  height: 630px;
+  width: 100%;
+  margin-top: 30px;
+  padding-left: 140px;
+  row-gap: 40px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  z-index: 50;
+}
+
+.pass select {
+  height: 30px;
+  width: 40px;
+  border: 2px solid black;
+}
+.separate {
+  margin: 0px 40px;
+}
+
+.btn {
+  height: 40px;
+  width: 130px;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  font-size: x-large;
+}
+
+#showAnswer {
+  margin-top: 20px;
+}
+
+/*-------Selectores Reciclados ---------*/
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arround {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  height: 100vh;
+}

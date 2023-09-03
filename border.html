@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Border</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <main class="center">
+      <div
+        class="container center"
+        id="doggy"
+        onclick="
+      const dogImage = document.querySelector('#doggy');
+      
+      if (dogImage.style.border == '2px solid red') {
+        dogImage.style.border = 'none';
+      } else {
+        dogImage.style.border = '2px solid red';
+      }
+        "
+      >
+        <img src="assets/img/perroStyle.png" alt="perrito" />
+      </div>
+    </main>
+  </body>
+</html>

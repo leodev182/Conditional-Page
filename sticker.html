@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stickers</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cutive&family=Roboto+Mono:wght@300&family=Roboto:wght@100;300;400;500&family=Tajawal:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="stick">
+      <h1>Lleva 10 Stickers GRATIS!!</h1>
+      <section class="contenedorStick arround">
+        <div class="card">
+          <img src="assets/img/perroStyle1.png" alt="Sticker de Perrito 1" />
+          <input type="number" id="stick1" min="0" max="10" />
+        </div>
+        <div class="card">
+          <img src="assets/img/perroStyle2.png" alt="Sticker de Perrito 2" />
+          <input type="number" id="stick2" min="0" max="10" />
+        </div>
+        <div class="card">
+          <img src="assets/img/catStyle.png" alt="Sticker de Gatito" />
+          <input type="number" id="stick3" min="0" max="10" />
+        </div>
+      </section>
+      <button onclick="countStickers ()">Seleccionar</button>
+      <p class="respuestaFinal center" id="respuesta"></p>
+    </main>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
